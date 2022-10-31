@@ -1,0 +1,43 @@
+const hotelData = {
+  hotel_name: 'Berman House',
+  location: 'Kaunas',
+  country: 'Lithuania',
+  address: '17 Karaliaus Mindaugo Prospektas, 44295 Kaunas, Lithuania',
+  zip: '44295',
+  coordinates: ['54.89463200', '23.89683900'],
+  check_in: '2022-11-23',
+  check_out: '2022-12-02',
+  price: 65,
+  priceWithTaxes: 65,
+  taxes: 0,
+  currency: 'EUR',
+  adults: 2,
+  children: [],
+  language: 'en',
+  no_rooms: 1,
+  price_type: 'stay',
+  url: 'https://www.booking.com/hotel/lt/berman-house-kaunas.en-gb.html?aid=304142&label=gen173nr-1DCAEoggI46AdIM1gEaIgBiAEBmAExuAEXyAEM2AED6AEBiAIBqAIDuAL9tN-aBsACAdICJGU2YzY0N2Q4LWQ1YTctNGMzMS05NWJmLTEwZTgxNTk5MGEzMdgCBOACAQ&sid=d449947e0e227c781e3768de8a1b4702&checkin=2022-10-27&checkout=2022-10-28&',
+};
+
+const hotelData2 = {
+  hotel_name: 'Moxy Kaunas Center',
+  location: 'Kaunas',
+  country: 'Lithuania',
+  address: 'Maironio street 19, 44250 Kaunas, Lithuania',
+  zip: '44250',
+  coordinates: ['54.89856600', '23.90946400'],
+  check_in: '2022-11-19',
+  check_out: '2022-11-26',
+  price: 408,
+  priceWithTaxes: 408,
+  taxes: 0,
+  currency: 'EUR',
+  adults: 2,
+  children: [],
+  language: 'en',
+  no_rooms: 1,
+  price_type: 'stay',
+  url: 'https://www.booking.com/hotel/lt/moxy-kaunas.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaIgBiAEBmAExuAEXyAEM2AEB6AEB-AECiAIBqAIDuALT7e6aBsACAdICJGViYzk0NmJmLWJlNDEtNDNlZS1iMTMyLWE4YTViNzYzMDQ3YtgCBeACAQ&sid=07c6761a6df313b4b15e5d83886bf667&all_sr_blocks=621283502_246436677_0_2_0;checkin=2022-11-19;checkout=2022-11-26;dest_id=-2615427;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=621283502_246436677_0_2_0;hpos=1;matching_block_id=621283502_246436677_0_2_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=621283502_246436677_0_2_0__40840;srepoch=1666954994;srpvid=521f4db8ce810317;type=total;ucfs=1&#hotelTmpl',
+};
+
+module.exports = { hotelData };
